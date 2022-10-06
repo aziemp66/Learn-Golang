@@ -24,9 +24,10 @@ func main() {
 	fmt.Println(country)
 
 	var (
-		firstName = "Azie"
+		firstName string
 		lastName  = "Melza Pratama"
 	)
+	firstName = "Azie"
 
 	fmt.Println(firstName)
 	fmt.Println(lastName)
