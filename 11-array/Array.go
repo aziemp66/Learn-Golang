@@ -13,7 +13,7 @@ func main() {
 	fmt.Println(names[1])
 	fmt.Println(names[2])
 
-	var names2 = [3]int{
+	var names2 = [...]int{
 		20,
 		30,
 		40,
