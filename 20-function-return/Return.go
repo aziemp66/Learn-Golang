@@ -3,7 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(sayHello("John", "Wick"))
+	firstName := "John"
+	lastName := "Wick"
+
+	result := sayHello(firstName, lastName)
+
+	fmt.Println(result)
 }
 
 func sayHello(firstName string, lastName string) string {
