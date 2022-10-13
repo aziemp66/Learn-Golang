@@ -8,7 +8,6 @@ func main() {
 		name := "Aziz" // if you do not declare a new variable, the value of the variable will be changed
 		println(name, "incrementing")
 		counter++
-
 	}
 
 	increment()
