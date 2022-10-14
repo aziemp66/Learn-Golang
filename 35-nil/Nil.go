@@ -1,7 +1,15 @@
 package main
 
-func main() {
+import "fmt"
 
+func main() {
+	myMap := NewMap("Azie")
+
+	if myMap == nil {
+		fmt.Println("Data Kosong")
+	} else {
+		fmt.Println(myMap)
+	}
 }
 
 func NewMap(name string) map[string]string {
