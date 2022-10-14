@@ -11,7 +11,7 @@ type Animal struct {
 
 func (animal Animal) Talk() string {
 	// return animal.Voice
-	return "Hello"
+	return animal.Voice
 }
 
 func main() {
